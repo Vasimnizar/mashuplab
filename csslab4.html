@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>css LAB 4</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style media="screen">
+       .one{
+         width:800px;
+         margin:0 Auto;
+         margin-top:10%;
+       }
+       table, td, th {
+         border: 1px solid grey;
+         padding:2px;
+       }
+
+      table {
+         border-collapse: collapse;
+         width: 100%;
+       }
+       button {
+         border-radius:50%
+         margin-left:20px;
+       }
+
+    </style>
+  </head>
+  <body>
+    <div class="one">
+      <span style="margin-left:0%;">show<select name="drpdwn">
+        <option value="5">5</option>
+      </select>entries</span>
+
+      <span style="margin-left:25%">Customer <b>Details</b></span>
+      <input type="search"  value="" placeholder="search" style="margin-left:25%">
+    </div>
+    <div class="one" style="margin-top:5%">
+      <table >
+        <tr>
+          <th>#</th>
+          <th>Name <i class="fa fa-sort"></i></th>
+          <th>Address</th>
+          <th>City <i class="fa fa-sort"></th>
+          <th>Pincode</th>
+          <th>Country <i class="fa fa-sort"></th>
+          <th>Actions</th>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>Thomas Hardy</td>
+          <td>89 Chairsco Road</td>
+          <td>Portland</td>
+          <td>91219</td>
+          <td>USA</td>
+          <td><i class="fa fa-eye" style="color:blue"></i><i class="fa fa-pencil" aria-hidden="true" style="color:yellow"></i><i class="fa fa-trash-o" style="color:red"></i></td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Maria Anders</td>
+          <td>Obere Str.57</td>
+          <td>Berlin</td>
+          <td>12209</td>
+          <td>Germany</td>
+          <td><i class="fa fa-eye" style="color:blue"></i><i class="fa fa-pencil" aria-hidden="true" style="color:yellow"></i><i class="fa fa-trash-o" style="color:red"></i></td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Fran Wilson</td>
+          <td>C/Araquil,67</td>
+          <td>Madrid</td>
+          <td>28023</td>
+          <td>Spain</td>
+          <td><i class="fa fa-eye" style="color:blue"></i><i class="fa fa-pencil" aria-hidden="true" style="color:yellow"></i><i class="fa fa-trash-o" style="color:red"></i></td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>Dominic Perrier</td>
+          <td>25, Rue Lauriston</td>
+          <td>Paris</td>
+          <td>75016</td>
+          <td>France</td>
+          <td><i class="fa fa-eye" style="color:blue"></i><i class="fa fa-pencil" aria-hidden="true" style="color:yellow"></i><i class="fa fa-trash-o" style="color:red"></i></td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td>Martin Blank</td>
+          <td>Via MOnteblanco 34 </td>
+          <td>Turin</td>
+          <td>10100</td>
+          <td>Italy</td>
+        <td><i class="fa fa-eye" style="color:blue"></i><i class="fa fa-pencil" aria-hidden="true" style="color:yellow"></i><i class="fa fa-trash-o" style="color:red"></i></td>
+        </tr>
+
+
+
+      </table>
+
+    </div>
+    <div class="one" style="margin-top:3%;">
+      <span>showing <b>5</b> out of <b>25</b> Entries</span>
+      <span style="float:right"><button style="border-radius:0px;">Previous</button></<span>
+        <span><button style="border-radius:50%">1</button></span>
+        <span><button style="border-radius:50%">2</button></span>
+        <span><button style="border-radius:50%;background-color:blue;color:black">3</button></span>
+        <span><button style="border-radius:50%">4</button></span>
+        <span><button style="border-radius:50%">5</button></span>
+        <span><button  style="border-radius:0px">Next</button></span>
+    </div>
+
+
+  </body>
+</html>
